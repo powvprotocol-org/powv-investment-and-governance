@@ -1,6 +1,10 @@
 # Financial Model
 
-**Status:** To be developed.
+**Status:** Research in progress; historical formation-cost methodology published.
+
+## Published working material
+
+- [Technology Capital Formation — Historical R&D Cost Model & Evidence Register](TECHNOLOGY_CAPITAL_FORMATION.md) — August 2025–November 2026, preliminary and unaudited; separates purchase amounts, modeled overhead and imputed engineering work.
 
 The future model will distinguish the finances of the PoWV technology enterprise from the economics of industrial operators and holders of represented assets. Areas for study include revenue architecture, CAPEX, OPEX, gross margin, EBITDA, working capital, cash flow, and financing needs.
 
