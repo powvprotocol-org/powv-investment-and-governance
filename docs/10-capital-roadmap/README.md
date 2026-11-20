@@ -31,3 +31,5 @@ Over the longer term, financial capacity could also support scientific fellowshi
 ## Financial scope
 
 The historical model estimates the resources used to develop the technology. A future funding request would separately identify the deliverable, capital expenditure, operating costs, commercialization costs and payment schedule. Enterprise and IP valuations require their own supporting evidence. This roadmap announces no financing round, pilot budget, restructuring, deployment commitment, investor return or liquidity event. [Valuation framework](../07-valuation-framework/README.md)
+
+[Illustrative venture funding scenarios](../06-financial-model/VENTURE_FUNDING_SCENARIOS.md) — three priced rounds with milestone-based funding, budget authority, founder dilution and investor proceeds.
