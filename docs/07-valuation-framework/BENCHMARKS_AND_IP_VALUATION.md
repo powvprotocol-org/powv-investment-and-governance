@@ -140,18 +140,18 @@ Identified customer workflow
 
 For example, **sector-wide capital flow × hypothetical fee rate** may describe an illustrative addressable revenue *scenario*, but cannot demonstrate current IP value without the fraction of that flow **actually addressable, contracted or credibly obtainable**. The value of underlying waste materials, trade-finance obligations, tokenized rights and PoWV software/services must not be conflated or counted multiple times.
 
-## 7. Sector context — scale of the problem, not project revenue
+## 7. Workflows, buyers and market sizing
 
-The [World Bank, *What a Waste 3.0* (2026)](https://www.worldbank.org/en/publication/what-a-waste), estimates that **global municipal solid-waste management costs exceed USD 250 billion per year** and could rise to **USD 426 billion in 2050** under the report's baseline.
+The relevant market question is which operators would buy a specific PoWV capability, what unit they would pay for and what it would cost to serve them. The references below describe existing workflows or technical approaches. PoWV integration, standards conformance and buyer demand would each require separate evidence.
 
-These figures concern **global municipal waste-management costs**. They are **not**:
+| Application | Candidate buyer and billable unit | External context |
+| --- | --- | --- |
+| Industrial, agricultural and logistics traceability | A warehouse or systems integrator could license verification per site or pay for integration with its ERP. | [GS1 EPCIS](https://www.gs1.org/docs/epc/EPCIS_Guideline.pdf) describes how trading partners share event data about goods and assets. |
+| Device trust and sensitive authorizations | An industrial security team or treasury operator could license a verification service per protected deployment. | [IETF RFC 9334](https://www.rfc-editor.org/rfc/rfc9334.html) describes how a verifier evaluates device evidence and how a relying party uses the result in a decision. |
+| Trade finance and real-world asset records | A trade platform or financing institution could pay to verify evidence accompanying a lot or warehouse record before its own review. | The [ICC Digital Standards Initiative](https://iccwbo.org/news-publications/news/icc-digital-standards-initiative-launches-complete-framework-for-supply-chain-digitalisation/) maps data across 36 trade documents. |
+| Environmental and waste reporting | A recovery operator could pay for evidence reconciliation at a facility. | The [World Bank solid-waste study](https://www.worldbank.org/en/publication/what-a-waste) provides background on this particular application. |
 
-- PoWV revenue, enterprise value, or project cash flow;
-- annual revenue of the waste tokenization industry;
-- the total value of verified recyclable materials, credits or financial obligations;
-- an assessed serviceable market share for PoWV.
-
-Product-level market sizing depends on separate **TAM / SAM / SOM assumptions** and a defined unit of monetization (device, verified event, enterprise license, integration, verification service, or another contractually agreed unit). Only attributable revenue and costs would feed an income-based IP valuation.
+A bottom-up estimate for a site license starts with eligible sites in a defined geography × plausible adoption × annual price per site. A verification service priced per record requires its own eligible volume and unit price. Paid pilot data would inform adoption, pricing and delivery cost. Overlapping sites and events count once. The current public record supports no numerical estimate of PoWV's addressable market.
 
 ## 8. Accounting recognition and independent evaluation
 
