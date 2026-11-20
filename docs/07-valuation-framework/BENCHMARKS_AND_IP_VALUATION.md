@@ -161,14 +161,11 @@ Product-level market sizing depends on separate **TAM / SAM / SOM assumptions** 
 
 **Three independent outcomes are possible:** a historically reconciled cost schedule, a current reproduction-cost estimate, and a market-participant economic IP valuation. They have different purposes, assumptions and evidentiary thresholds; they are **not necessarily additive**. Accounting capitalization or formal appraisal must be evaluated for the relevant entity and transaction.
 
-## 9. Cost reconciliation and IP valuation criteria
+## 9. Project costs and IP value
 
-1. **Project expenses and reporting period.** Monthly invoices, payment records, service activation dates, electricity bills and rental records provide the basis for reconciling expenses. Shared expenses require a documented basis for allocating the project's share. The period covered by the November 2026 records determines whether the figures represent a full or partial month.
-2. **Inflation adjustment.** October 2026 is the reference month for the proposed item-level IPCA restatement. Each calculation depends on the nominal amount, transaction month, index series and adjustment period. November expenses fall after the reference month and require a separate cutoff convention.
-3. **Physical equipment.** The relevant inventory fields are acquisition date, useful life, residual value and current condition. A replacement-cost estimate also requires dated price evidence for functionally equivalent equipment.
-4. **Engineering effort.** The model assumes 1,185 hours. Verification depends on linking those hours to dated work packages and deliverables. The task determines the appropriate role benchmark. The 160- and 200-hour monthly assumptions show how the choice of divisor affects the hourly rate.
-5. **Engineering cost comparisons.** The salary benchmark excludes employer charges. The hypothetical CLT replacement scenario includes the employment costs modeled in section 3. A third comparison would use an external engineer's quotation for equivalent work, where available. These are alternative pricing bases for the same work.
-6. **IP rights and industrial use.** A licensing assessment depends on the assets covered, evidence of ownership and the rights the holder can enforce and license. Evidence of industrial performance depends on pilot results that an independent party can reproduce.
-7. **Economic valuation.** Income-based scenarios require supportable operating and commercial assumptions. Market-based scenarios require evidence of comparable transactions. Where the intended use requires an independent valuation, the conclusion depends on an assessment by a qualified independent valuer.
+- **Expenses.** Payment records establish the project’s share of costs and the period covered in November. October 2026 is the reference month for the proposed IPCA adjustment.
+- **Equipment.** Replacement estimates use dated prices for equivalent equipment and account for the condition of each item.
+- **Engineering.** The model estimates 1,185 hours, pending verification against dated deliverables. It tests hourly rates at 160 and 200 hours per month. Salary, total CLT employment cost and contractor quotes are alternative benchmarks.
+- **Intellectual property.** Valuation depends on licensing rights, reproducible pilot results and evidence of future income or comparable transactions.
 
-**Disclosure boundary:** No personal invoices, financial statements, private product implementation, restricted economic parameters or unpublished IP documents are included. The purpose is to make the methodology reviewable without prematurely exposing the confidential evidence room.
+Financial records, implementation details, restricted economic assumptions and unpublished IP documents remain confidential.
