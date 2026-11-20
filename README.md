@@ -4,6 +4,21 @@
 
 This public repository is reserved for the PoWV Protocol's investment thesis, corporate architecture, capital strategy, financial modeling, governance, and industrial commercialization research.
 
+## For investors and funding partners
+
+PoWV is developing a way for operators to trace a digital record back to a physical measurement. A [bench experiment](https://github.com/powvprotocol-org/powv-scale-edge-integration/blob/main/docs/integration-module/experimental-record.md) documented a reading from a real scale reaching an ESP32 receiver. A separate [software report](https://github.com/powvprotocol-org/powv-lab-status/blob/main/status/2026-11-software-engineering-update.md) records the tests run and their scope.
+
+**Proposed use of early funding.** Reproduce the bench result with an external partner, then run a pilot at one weighing site. The pilot would compare captured readings with the operator's existing records and measure the time spent resolving discrepancies before and during the trial. That result would help establish whether an operator has a reason to pay for verification.
+
+| Partner | Question for diligence | Possible next step |
+| --- | --- | --- |
+| Angel or venture fund | Could a paid pilot lead to repeatable licensing or service revenue? Which entity would receive that revenue and hold commercialization rights? | Review the evidence and pilot budget before discussing an investment instrument, ownership and investor rights. |
+| Bank or industrial partner | Could the evidence improve a specific reconciliation or trade-finance workflow? | Scope a pilot with an operational owner and acceptance criteria. A credit discussion would also require an identified borrower and repayment source. |
+| Grant maker or ecosystem foundation | Could a deliverable benefit other developers? For an Ethereum ecosystem grant, one candidate is an open example for verifying a commitment to a measurement record. | Assess technical fit and agree on the public deliverable, budget and acceptance test under the relevant program. |
+| Public innovation agency or regulator | Which public research objective or supervisory question could a trial address? | Explore funding with an eligible innovation program or discuss an evaluation with the relevant supervisory body, according to its mandate. |
+
+The [cost and evidence register](docs/06-financial-model/TECHNOLOGY_CAPITAL_FORMATION.md) documents work to date. The budget for the next milestone and any financing terms remain open. For a technical walkthrough or a private diligence discussion, contact **Gabriel de Almeida Santos Silva, Founder & Protocol Architect**, at [gabriel@powvprotocol.com](mailto:gabriel@powvprotocol.com).
+
 ## Active research — ECO-1
 
 - [Economic Architecture — public framework](docs/01-investment-thesis/ECONOMIC_ARCHITECTURE.md): boundaries between evidence, asset rights, revenues, and governance.
