@@ -25,6 +25,15 @@ PoWV develops evidence infrastructure for physical events and operational decisi
 
 For a technical walkthrough or a private diligence discussion, contact **Gabriel de Almeida Santos Silva**, Founder & Protocol Architect, at [gabriel@powvprotocol.com](mailto:gabriel@powvprotocol.com).
 
+## Development activity · November 2026
+
+From 1 to 20 November, the founder’s GitHub account (`GabsDevX`) opened **36 pull requests across nine PoWV repositories**. At the 20 November review, **29 of those requests had merged**. Of the 36, 34 were opened during 14–20 November, including 17 on 20 November.
+
+| Repository scope | Pull requests opened | Work covered |
+| --- | ---: | --- |
+| Private PoWV Virtual Lab | 11 | Engineering work included audit recovery and cross-language conformance testing. The project publishes the scope and results of its experimental software runs. [Public engineering report](https://github.com/powvprotocol-org/powv-lab-status/blob/main/status/2026-11-software-engineering-update.md) |
+| Eight public organization repositories | 25 | Changes primarily documented product architecture, governance, bench evidence and technical status. [Public pull requests](https://github.com/pulls?q=is%3Apr+org%3Apowvprotocol-org+author%3AGabsDevX+created%3A2026-11-01..2026-11-20) |
+
 ## Active research — ECO-1
 
 - [Economic Architecture — public framework](docs/01-investment-thesis/ECONOMIC_ARCHITECTURE.md): boundaries between evidence, asset rights, revenues, and governance.
