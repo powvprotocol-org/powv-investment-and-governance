@@ -2,9 +2,9 @@
 
 ## Proposed milestones
 
-1. Repeat the [bench experiment](https://github.com/powvprotocol-org/powv-scale-edge-integration/blob/main/docs/integration-module/experimental-record.md) with an external partner and record the observed result.
-2. Scope and cost a [pilot at one weighing site](../09-commercial-strategy/README.md) with the operator.
-3. Use the pilot results to decide whether to fund a wider deployment.
+1. Select a [partner workflow](../09-commercial-strategy/README.md) and the decision the partner wants to improve.
+2. Reproduce the relevant capability with the partner. The existing [instrument-to-edge bench record](https://github.com/powvprotocol-org/powv-scale-edge-integration/blob/main/docs/integration-module/experimental-record.md) provides a starting point for physical acquisition. Authorization and financial workflows require tests specific to those uses.
+3. Budget the pilot against agreed acceptance criteria. Compare results with the partner's baseline before deciding on wider deployment.
 
 The budget, timetable and funding commitments remain open.
 
