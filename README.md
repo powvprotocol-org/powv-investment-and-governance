@@ -13,9 +13,9 @@ PoWV develops evidence infrastructure for physical events and operational decisi
 | Research history | The project chronology dates the founder's whitepaper to 8 September 2025. The source is held for authorized review. [Dated records](docs/06-financial-model/TECHNOLOGY_CAPITAL_FORMATION.md#4-dated-technical-milestones-and-evidentiary-links) |
 | Physical capture | In a controlled bench experiment, the founder captured a reading from a real scale, transmitted the event and retrieved it from an ESP32. [Bench record](https://github.com/powvprotocol-org/powv-scale-edge-integration/blob/main/docs/integration-module/experimental-record.md) |
 | Software testing | In a separate software-only run, all 343 test cases passed on both Python 3.12 and 3.13. [Engineering report](https://github.com/powvprotocol-org/powv-lab-status/blob/main/status/2026-11-software-engineering-update.md) |
-| Estimated development cost | Approximately **BRL 148,000**, including about **BRL 120,000** for 1,185 estimated hours of founder engineering work at a published salary benchmark. Equipment costs are founder-declared. Operating expenses are modeled and await reconciliation with payment records. [Cost model](docs/06-financial-model/TECHNOLOGY_CAPITAL_FORMATION.md#2-preliminary-formation-cost-scenario) |
+| Estimated development cost | Approximately **BRL 148,000** (about **USD 25,200** at the 19 November 2026 PTAX), including about **BRL 120,000** for 1,185 estimated hours of founder engineering work at a published salary benchmark. Equipment costs are founder-declared. Operating expenses are modeled and await reconciliation with payment records. [Cost model](docs/06-financial-model/TECHNOLOGY_CAPITAL_FORMATION.md#2-preliminary-formation-cost-scenario) |
 
-[Candidate pilots](docs/09-commercial-strategy/README.md) would test a specific buyer's workflow and willingness to pay.
+[USD funding equivalents and 12-month FX sensitivity](docs/06-financial-model/VENTURE_FUNDING_SCENARIOS.md#us-dollar-view-and-12-month-currency-sensitivity) cover the illustrative rounds. [Candidate pilots](docs/09-commercial-strategy/README.md) would test a specific buyer's workflow and willingness to pay.
 
 | Diligence question | Project record |
 | --- | --- |
