@@ -163,9 +163,11 @@ Product-level market sizing depends on separate **TAM / SAM / SOM assumptions** 
 
 ## 9. Project costs and IP value
 
-- **Expenses.** Payment records establish the project’s share of costs and the period covered in November. October 2026 is the reference month for the proposed IPCA adjustment.
-- **Equipment.** Replacement estimates use dated prices for equivalent equipment and account for the condition of each item.
-- **Engineering.** The model estimates 1,185 hours, pending verification against dated deliverables. It tests hourly rates at 160 and 200 hours per month. Salary, total CLT employment cost and contractor quotes are alternative benchmarks.
-- **Intellectual property.** Valuation depends on licensing rights, reproducible pilot results and evidence of future income or comparable transactions.
+| Area | Basis for assessment |
+| --- | --- |
+| Expenses | Payment records establish the project’s share of costs and the period covered in November. October 2026 is the reference month for the proposed IPCA adjustment. |
+| Equipment | Replacement estimates use dated prices for equivalent equipment and account for the condition of each item. |
+| Engineering | The model estimates 1,185 hours, pending verification against dated deliverables. It tests hourly rates at 160 and 200 hours per month. Salary, total CLT employment cost and contractor quotes are alternative benchmarks. |
+| Intellectual property | Valuation depends on licensing rights, reproducible pilot results and evidence of future income or comparable transactions. |
 
 Financial records, implementation details, restricted economic assumptions and unpublished IP documents remain confidential.
