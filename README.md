@@ -19,6 +19,10 @@ The public framework deliberately does not publish restricted structural tokenom
 
 - [Historical R&D Cost Model & Evidence Register](docs/06-financial-model/TECHNOLOGY_CAPITAL_FORMATION.md) — preliminary, unaudited BRL assessment separating founder-declared physical acquisitions, modeled infrastructure costs and imputed engineering effort. Source-document hashes, evidence status and reconciliation requirements are recorded. It is neither an audited asset value nor enterprise valuation.
 
+## Benchmarked engineering cost & IP value methodology
+
+- [Independent benchmarks, payroll-burden sensitivity, inflation, depreciation and IP valuation](docs/07-valuation-framework/BENCHMARKS_AND_IP_VALUATION.md) — sourced salary and statutory references, IBGE/CPC treatment, WIPO valuation approaches, and World Bank sector context. Distinguishes documented historical costs, current replacement-cost estimates and prospective IP economic benefits.
+
 ## Documentation index
 
 | Domain | Document |
