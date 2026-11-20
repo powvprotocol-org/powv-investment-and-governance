@@ -1,4 +1,4 @@
-# Technology Formation: Benchmarks, Burdened Engineering Cost & IP Valuation
+# PoWV Technology Development: Engineering Cost Benchmarks, Employment Costs and IP Valuation
 
 **Public methodology note · 20 November 2026 · Version 0.1 · Preliminary and unaudited**
 
@@ -6,7 +6,7 @@ This is the companion methodology to the [2025–2026 Technology Capital Formati
 
 **Scope of the present public model:** founder-declared physical inputs, estimated infrastructure allocation and imputed professional effort. None of the calculations below is an audited balance-sheet value, independent appraisal, proof of commercial revenue, or certified market value.
 
-## 1. Five different measurements; do not collapse them
+## 1. Five measures of cost and value
 
 | Measurement | What it answers | Appropriate input | Current status |
 | --- | --- | --- | --- |
@@ -30,9 +30,9 @@ The **Robert Half 2026 Brazilian salary guide**, as reproduced with attribution 
 
 **Source:** [Serasa Experian, “Áreas da tecnologia mais bem pagas em 2026” (reproducing Robert Half, Guia Salarial 2026)](https://www.serasaexperian.com.br/carreiras/blog-carreiras/areas-da-tecnologia-mais-bem-pagas/).
 
-**Calculation:** monthly benchmark / modeled productive-hours denominator × modeled founder hours. The **160 h/month denominator is a modeling choice**, not a Brazilian legal work-hour divisor or an audited founder timecard. At **200 h/month**, the same median monthly salary would imply **BRL 81.25/hour** and **BRL 96,281.25** for 1,185 hours, before any employment burden. This sensitivity should remain visible in due diligence.
+**Calculation:** monthly benchmark / modeled productive-hours denominator × modeled founder hours. The **160 h/month denominator is a modeling choice**, not a Brazilian legal work-hour divisor or an audited founder timecard. At **200 h/month**, the same median monthly salary would imply **BRL 81.25/hour** and **BRL 96,281.25** for 1,185 hours, before any employment burden. The difference between the two estimates reflects the choice of monthly hours.
 
-A full-stack job title is only a **general software-development comparator**, not a definitive market match for all PoWV work. Technical activities may require distinct future benchmarks for embedded software, hardware security, architecture, applied cryptography, data integrity and independent validation. Workstream allocation must be reconstructed from dated deliverables; the relevant job title should follow the task, not a blanket premium.
+A full-stack job title is only a **general software-development comparator**, not a definitive market match for all PoWV work. Technical activities may require distinct future benchmarks for embedded software, hardware security, architecture, applied cryptography, data integrity and independent validation. Dated deliverables provide the basis for allocating hours by workstream and selecting a salary benchmark for each task.
 
 The model continues to distinguish **Stage A (525 h, August 2025–March 2026)** from **Stage B (660 h, April–20 November 2026)**. These are assumed hours awaiting activity-level verification; a Git commit, document, signature or test result proves neither the precise human time expended nor a professional qualification.
 
@@ -41,10 +41,10 @@ The model continues to distinguish **Stage A (525 h, August 2025–March 2026)**
 A monthly salary figure is not automatically the total cost to employ an equivalent engineer. For a **hypothetical Brazilian CLT replacement role**, an explicit scenario may consider:
 
 - **13th salary:** an additional 1/12 of monthly pay per worked year in this simplified annualized model.
-- **Vacation third:** an incremental 1/3 of one month of pay, allocated across 12 months. The ordinary paid vacation month is already included in twelve monthly salaries here and should not be added as a thirteenth regular salary.
+- **Vacation third:** an incremental 1/3 of one month of pay, allocated across 12 months. The ordinary paid vacation month is already included in twelve monthly salaries here and is counted once.
 - **Employer social-security contribution:** a **20% general employer rate**, **when the regime and employer actually make it applicable**.
 - **FGTS:** generally **8%**, subject to the relevant employment rules.
-- **RAT/SAT, third-party contributions, benefits, productive-time assumptions, termination provisions, recruitment and actual tax treatment:** determine separately, not by an unsupported uniform percentage.
+- **RAT/SAT, third-party contributions, benefits, productive-time assumptions, termination provisions, recruitment and actual tax treatment:** the estimate for each component depends on the employer and role.
 
 Authorities: [Federal Revenue — corporate social-security contributions](https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/tributos/contribuicoes-previdenciarias-pj); [Ministry of Labor — FGTS](https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/areas-de-atuacao/fgts-fundo-de-garantia-do-tempo-de-servico); [Federal procurement pricing framework, IN 5/2017, Annex VII-D](https://www.gov.br/compras/pt-br/acesso-a-informacao/legislacao/instrucoes-normativas/instrucao-normativa-no-5-de-26-de-maio-de-2017-atualizada). These describe statutory components and contract-cost methodology; they do **not** certify that the founder was employed, paid, or owed those charges.
 
@@ -60,7 +60,7 @@ Non-labor working-model base = BRL 27,923.55
 Illustrative combined replacement scenario = BRL 199,090.22
 ```
 
-**Do not replace the published BRL 148,275.11 historical formation-cost scenario with BRL 199,090.22.** The latter is a **conditional employer-replacement sensitivity**, excludes some potential costs, depends on employment/tax assumptions and is not evidence that statutory charges were paid or are owed. The non-labor base itself contains modeled residential costs and services not yet reconciled.
+**BRL 148,275.11** is the published historical formation-cost scenario. **BRL 199,090.22** is a separate estimate of the cost of hiring a replacement engineer and covering the modeled non-labor costs. This scenario excludes some potential costs, depends on employment/tax assumptions and is not evidence that statutory charges were paid or are owed. The non-labor base itself contains modeled residential costs and services not yet reconciled.
 
 A separate service-company or independent contractor cost may be more relevant for outsourcing certain specialized activities; in that case it needs its **own sourced rates**, instead of adding CLT charges to consulting quotations.
 
@@ -74,13 +74,13 @@ The official Brazilian consumer-price reference is the **IBGE IPCA**. An expense
 Amount in t-month BRL = nominal historical amount × (IPCA index level at t / IPCA index level at m)
 ```
 
-For a reproducible result, retain the **transaction month, nominal BRL amount, IPCA vintage, chosen base month, series identifier and rounding convention**. Index **each dated item** separately; applying one blanket 12-month inflation figure to all August 2025–November 2026 expenses is not a valid restatement of this mixed-age inventory.
+The item-level calculation requires the transaction month, nominal BRL amount, IPCA release and series identifier, base month and rounding convention. Each expense has its own adjustment period because the transactions span August 2025 to November 2026.
 
 As of the assessment cutoff **20 November 2026**, the latest published monthly IPCA cited here is **October 2026**, with **0.14% monthly change and 4.63% over the previous 12 months**. These are context figures, **not** a universal factor to multiply all project costs by. Expenses later than the latest available index month require a disclosed cutoff convention.
 
 Official sources: [IBGE, IPCA and its calculator](https://www.ibge.gov.br/explica/inflacao.php); [IBGE October 2026 release](https://ftp.ibge.gov.br/Precos_Indices_de_Precos_ao_Consumidor/IPCA/Fasciculo_Indicadores_IBGE/ipca-inpc_202610caderno.pdf).
 
-**Salary benchmarks issued for 2026 are already contemporaneous 2026 comparisons**: do not add a second generic 2025–2026 inflation uplift to them. An historical 2025 salary benchmark, if later obtained, could instead be translated explicitly to a common price date.
+The 2026 salary benchmarks enter the comparison at their published amounts. A historical 2025 salary benchmark, if later obtained, could instead be translated explicitly to a common price date.
 
 ### 4.2 Depreciation, current replacement and obsolescence
 
@@ -89,7 +89,7 @@ Physical equipment requires an **asset-by-asset** assessment:
 - **Accounting carrying amount** depends on recognition, cost, depreciation policy, asset availability for use, useful life, residual value and relevant impairment assessment.
 - **Tax-life reference** may be informed by the applicable Federal Revenue depreciation schedule, but it is not itself the accounting useful-life determination.
 - **Current replacement cost** requires quotations for functionally equivalent equipment and may differ materially from indexed purchase price or accounting carrying amount.
-- Items with research-prototype utility may retain technical usefulness even if their resale value is low; do not turn that observation into an unsupported book-value uplift.
+- Items with research-prototype utility may retain technical usefulness even if their resale value is low. Technical usefulness alone provides no basis for increasing an asset’s carrying amount.
 
 References: [CPC 27 — property, plant and equipment](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=58); [Federal Revenue IN RFB 1,700/2017 — depreciation and useful-life framework](https://normas.receita.fazenda.gov.br/sijut2consulta/link.action?idAto=81268).
 
@@ -107,7 +107,7 @@ A **signed or hashed technical document is not a depreciable physical asset**. R
 | Invoices, bank records and dated time logs (restricted access) | Individual monetary payments and effort reconstruction when reconciled | Market value of associated intellectual property by themselves |
 | Customer pilots, contracts and independent outcome measurement | Attributable savings, adoption, willingness to pay and revenue evidence | Automatic extrapolation of pilot outcomes to the entire sector |
 
-No claim is made here that PoWV has received an **independent technology certification**, a completed independent valuation or formal recognition of the cost scenario as an asset. Public summaries should distinguish internal validation from third-party assurance.
+No claim is made here that PoWV has received an **independent technology certification**, a completed independent valuation or formal recognition of the cost scenario as an asset. The reported tests document internal validation.
 
 The accompanying [formation-cost schedule](../06-financial-model/TECHNOLOGY_CAPITAL_FORMATION.md) supplies the public evidence IDs and SHA-256 fingerprints of two underlying source revisions. A hash validates a byte-for-byte match; it does not validate the amounts contained in a file.
 
@@ -126,7 +126,7 @@ Sources: [WIPO — Valuing IP Assets](https://www.wipo.int/en/web/business/ip-va
 
 **PoWV candidate economic benefits to test** include measurement-event traceability, lower reconciliation and fraud-investigation costs, evidence quality for physical-to-digital asset workflows, bounded dispute exposure, lower counterparty verification friction and infrastructure integration. These are **testable value hypotheses**, not yet established customer savings.
 
-An eventual licensed/IP income model should expose the causal bridge:
+An income model for licensing would link operating evidence to estimated cash flows as follows:
 
 ```text
 Identified customer workflow
@@ -151,7 +151,7 @@ These figures concern **global municipal waste-management costs**. They are **no
 - the total value of verified recyclable materials, credits or financial obligations;
 - an assessed serviceable market share for PoWV.
 
-Any future market-sizing document should establish separate **TAM / SAM / SOM assumptions** for the specific PoWV products and define the unit of monetization (device, verified event, enterprise license, integration, verification service, or another contractually agreed unit). Only attributable revenue and costs would feed an income-based IP valuation.
+Product-level market sizing depends on separate **TAM / SAM / SOM assumptions** and a defined unit of monetization (device, verified event, enterprise license, integration, verification service, or another contractually agreed unit). Only attributable revenue and costs would feed an income-based IP valuation.
 
 ## 8. Accounting recognition and independent evaluation
 
@@ -161,14 +161,14 @@ Any future market-sizing document should establish separate **TAM / SAM / SOM as
 
 **Three independent outcomes are possible:** a historically reconciled cost schedule, a current reproduction-cost estimate, and a market-participant economic IP valuation. They have different purposes, assumptions and evidentiary thresholds; they are **not necessarily additive**. Accounting capitalization or formal appraisal must be evaluated for the relevant entity and transaction.
 
-## 9. Reconciliation order
+## 9. Cost reconciliation and IP valuation criteria
 
-1. Obtain **month-dated invoices, payments, activation periods, electricity bills and rental records**; identify project-attributable shares and whether November 2026 represents a completed or partial period.
-2. Construct an **item-level IPCA restatement through October 2026**, disclosing index and timing conventions.
-3. Inventory physical assets by acquisition date, useful life, residual value, current condition and replacement-price evidence.
-4. Map 1,185 modeled engineering hours to **dated work packages and deliverables**, then compare task-specific role benchmarks; retain 160/200-hour sensitivities.
-5. Separate the **unburdened salary reference**, **hypothetical CLT fully loaded replacement**, and any **contracted external-engineer quote**.
-6. Define IP rights, ownership and enforceable licensing boundaries; measure industrial use cases through independently reproducible pilot results.
-7. Build income/market/IP scenarios only where operational and commercial inputs can be supported; obtain qualified independent valuation when required.
+1. **Project expenses and reporting period.** Monthly invoices, payment records, service activation dates, electricity bills and rental records provide the basis for reconciling expenses. Shared expenses require a documented basis for allocating the project's share. The period covered by the November 2026 records determines whether the figures represent a full or partial month.
+2. **Inflation adjustment.** October 2026 is the reference month for the proposed item-level IPCA restatement. Each calculation depends on the nominal amount, transaction month, index series and adjustment period. November expenses fall after the reference month and require a separate cutoff convention.
+3. **Physical equipment.** The relevant inventory fields are acquisition date, useful life, residual value and current condition. A replacement-cost estimate also requires dated price evidence for functionally equivalent equipment.
+4. **Engineering effort.** The model assumes 1,185 hours. Verification depends on linking those hours to dated work packages and deliverables. The task determines the appropriate role benchmark. The 160- and 200-hour monthly assumptions show how the choice of divisor affects the hourly rate.
+5. **Engineering cost comparisons.** The salary benchmark excludes employer charges. The hypothetical CLT replacement scenario includes the employment costs modeled in section 3. A third comparison would use an external engineer's quotation for equivalent work, where available. These are alternative pricing bases for the same work.
+6. **IP rights and industrial use.** A licensing assessment depends on the assets covered, evidence of ownership and the rights the holder can enforce and license. Evidence of industrial performance depends on pilot results that an independent party can reproduce.
+7. **Economic valuation.** Income-based scenarios require supportable operating and commercial assumptions. Market-based scenarios require evidence of comparable transactions. Where the intended use requires an independent valuation, the conclusion depends on an assessment by a qualified independent valuer.
 
 **Disclosure boundary:** No personal invoices, financial statements, private product implementation, restricted economic parameters or unpublished IP documents are included. The purpose is to make the methodology reviewable without prematurely exposing the confidential evidence room.
