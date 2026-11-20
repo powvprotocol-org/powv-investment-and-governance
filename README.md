@@ -8,7 +8,14 @@ This public repository is reserved for the PoWV Protocol's investment thesis, co
 
 PoWV develops evidence infrastructure for physical events and operational decisions. The research asks two questions: where did a record come from, and what can an operator reasonably authorize on the strength of that record? The [product architecture](https://powv-protocol.gitbook.io/powv-protocol-docs/product-proposals/) spans evidence verification, secure capture, operational security and a financial-operations profile. Potential buyers include industrial operators, systems integrators and institutions that rely on evidence about physical assets.
 
-The project has documented a real instrument-to-edge bench experiment and separate software conformance tests. [Candidate pilots](docs/09-commercial-strategy/README.md) would test a specific buyer's workflow and willingness to pay.
+| R&D record through 20 November 2026 | Result and basis |
+| --- | --- |
+| Research history | The project chronology dates the founder's whitepaper to 8 September 2025. The source is held for authorized review. [Dated records](docs/06-financial-model/TECHNOLOGY_CAPITAL_FORMATION.md#4-dated-technical-milestones-and-evidentiary-links) |
+| Physical capture | In a controlled bench experiment, the team captured a reading from a real scale, transmitted the event and retrieved it from an ESP32. [Bench record](https://github.com/powvprotocol-org/powv-scale-edge-integration/blob/main/docs/integration-module/experimental-record.md) |
+| Software testing | In a separate software-only run, all 343 test cases passed on both Python 3.12 and 3.13. [Engineering report](https://github.com/powvprotocol-org/powv-lab-status/blob/main/status/2026-11-software-engineering-update.md) |
+| Estimated development cost | Approximately **BRL 148,000**, including about **BRL 120,000** for 1,185 estimated hours of founder engineering work at a published salary benchmark. Equipment costs are founder-declared. Operating expenses are modeled and await reconciliation with payment records. [Cost model](docs/06-financial-model/TECHNOLOGY_CAPITAL_FORMATION.md#2-preliminary-formation-cost-scenario) |
+
+[Candidate pilots](docs/09-commercial-strategy/README.md) would test a specific buyer's workflow and willingness to pay.
 
 | Diligence question | Project record |
 | --- | --- |
