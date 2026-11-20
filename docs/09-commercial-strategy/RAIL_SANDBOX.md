@@ -25,6 +25,18 @@ The lean case assumes an available interface and limited test traffic. The worki
 
 At BRL 67,000, the June allowance would fall below the working case's BRL 73,750 in base labor alone. It could cover a narrower cash-funded scope if a partner supplies equipment or personnel. The working estimate is compatible in scale with [illustrative Round A](../06-financial-model/VENTURE_FUNDING_SCENARIOS.md). The two figures overlap: a sponsor payment, grant or in-kind contribution for the same work reduces the remaining financing need.
 
+## Sandbox budget in US dollars
+
+The 19 November 2026 closing PTAX selling rate was **BRL 5.8889 per USD**, the latest closing reference available on 20 November. The two stress rates are rounded assumptions roughly 10% either side of that reference. Amounts use the same BRL scope throughout, rounded to the nearest dollar. [Central Bank of Brazil closing PTAX](https://ptax.bcb.gov.br/ptax_internet/consultarUltimaCotacaoDolar.do).
+
+| Sandbox scope | Budget (BRL) | USD at 5.8889 | USD at 5.30 | USD at 6.48 |
+| --- | ---: | ---: | ---: | ---: |
+| Lean | 84,838 | 14,406 | 16,007 | 13,092 |
+| Working case | 133,831 | 22,726 | 25,251 | 20,653 |
+| Extended | 201,900 | 34,285 | 38,094 | 31,157 |
+
+The working case is about **USD 22,726** at the reference rate. Imported hardware and satellite service priced in USD have a different exposure: their BRL cost rises when the dollar strengthens. A procurement budget would retain those items in their invoice currency and translate only the BRL-priced remainder. The site pilot still requires its own quote. [Twelve-month FX assumptions and installment example](../06-financial-model/VENTURE_FUNDING_SCENARIOS.md#us-dollar-view-and-12-month-currency-sensitivity).
+
 ## Milestones and acceptance
 
 | Indicative window | Sandbox output | Evidence for acceptance |
