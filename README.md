@@ -15,6 +15,10 @@ The public framework deliberately does not publish restricted structural tokenom
 
 - [Economic Finality & Dispute Governance](https://github.com/powvprotocol-org/protocol-economic-finality) — a separate public research repository on challenges, bounded quarantine, adjudication, financial-risk allocation, and authorized settlement. This technical-governance workstream complements ECO-1 without constituting an adopted financial policy.
 
+## Technology capital formation — 2025–2026
+
+- [Historical R&D Cost Model & Evidence Register](docs/06-financial-model/TECHNOLOGY_CAPITAL_FORMATION.md) — preliminary, unaudited BRL assessment separating founder-declared physical acquisitions, modeled infrastructure costs and imputed engineering effort. Source-document hashes, evidence status and reconciliation requirements are recorded. It is neither an audited asset value nor enterprise valuation.
+
 ## Documentation index
 
 | Domain | Document |
