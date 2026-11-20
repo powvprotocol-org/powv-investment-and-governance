@@ -10,3 +10,5 @@ A pilot would test whether a specific buyer can make a better decision using PoW
 | Recycling or recovery operator | Reconcile recovered material with the facility's intake records. | Time spent resolving discrepancies and share of loads with traceable evidence. |
 
 The weighing bench provides a starting point for an acquisition pilot. Other trials require their own implementation and readiness checks. A partner agreement would identify the workflow owner, baseline, deliverable, acceptance criteria and price.
+
+[Rail evidence sandbox and field pilot](RAIL_SANDBOX.md) — one application with separate bench costs, field acceptance criteria and a proposed billing unit.
