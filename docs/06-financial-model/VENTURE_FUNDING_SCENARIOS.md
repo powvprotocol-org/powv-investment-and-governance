@@ -24,6 +24,22 @@ The model starts with 850,000 founder units. These units express economic owners
 
 **Price sensitivity.** If B raised the same BRL 500,000 at A's BRL 1.00 unit price, B would receive 33.33%, the founder 56.67% and A 10.00% immediately after B. A successful technical review would give the parties evidence for a negotiation. It would create no automatic right to a higher price.
 
+### US dollar view and 12-month currency sensitivity
+
+**Reference date: 20 November 2026.** The latest available closing PTAX selling rate was **BRL 5.8889 per USD on 19 November**. USD equivalent = fixed BRL amount ÷ BRL per USD. Figures are rounded to whole dollars before bank spreads, transfer charges and applicable taxes. [Central Bank of Brazil closing PTAX](https://ptax.bcb.gov.br/ptax_internet/consultarUltimaCotacaoDolar.do).
+
+| Round | New cash (BRL) | USD at 5.8889 | USD at 5.30 | USD at 6.48 |
+| --- | ---: | ---: | ---: | ---: |
+| A | 150,000 | 25,472 | 28,302 | 23,148 |
+| B | 500,000 | 84,906 | 94,340 | 77,160 |
+| C | 1,250,000 | 212,264 | 235,849 | 192,901 |
+
+At the reference rate the illustrative **pre-money → post-money** values in USD are **144,339 → 169,811** for A, **339,622 → 424,528** for B and **849,055 → 1,061,319** for C. Translation leaves the modeled ownership percentages unchanged.
+
+**Outlook through November 2027.** The Focus survey published on 16 November reported market medians of **5.40 for December 2026 and January 2027**, and **5.45 for December 2027**. The survey predates the 19 November close. December 2027 is a year-end comparison just beyond the planning horizon. The 5.30 and 6.48 columns are hypothetical stress tests for payments over the next twelve months. Actual rates may move outside them. [13 November Focus Market Readout](https://www.bcb.gov.br/content/focus/focusmarketreadout/R20261113.pdf).
+
+**Staged funding.** For a BRL-denominated round, the dollar outlay is the sum of each BRL installment divided by its own settlement rate. For A, BRL 60,000 at 5.8889 costs about USD 10,189. If both later installments (BRL 52,500 and 37,500) settle at 5.30, the total rises to **USD 27,170**, versus **USD 25,472** with all three at the reference rate. For a fixed USD commitment, the BRL available to the project instead varies at each closing. The agreement would specify denomination, rate source and fixing date, non-business-day convention, fees and who covers any BRL shortfall. USD returns also depend on the exchange rate when proceeds are distributed.
+
 ## 2. Spending authority by budget line
 
 | Use of proceeds (BRL) | A | B | C |
