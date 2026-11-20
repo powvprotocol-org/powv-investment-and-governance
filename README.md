@@ -1,8 +1,15 @@
 # PoWV Protocol — Investment & Governance
 
-**Repository status:** Documentation structure established; substantive content pending development.
+**Repository status:** Public documentation framework established. Economic-architecture study and decision tracking are in progress; substantive policies and model parameters remain under review.
 
 This public repository is reserved for the PoWV Protocol's investment thesis, corporate architecture, capital strategy, financial modeling, governance, and industrial commercialization research.
+
+## Active research — ECO-1
+
+- [Economic Architecture — public framework](docs/01-investment-thesis/ECONOMIC_ARCHITECTURE.md): boundaries between evidence, asset rights, revenues, and governance.
+- [ECO-1 Decision Register](docs/01-investment-thesis/DECISION_REGISTER.md): D1–D3 and unresolved questions, maintained incrementally.
+
+The public framework deliberately does not publish restricted structural tokenomics or proprietary economic parameters.
 
 ## Documentation index
 
