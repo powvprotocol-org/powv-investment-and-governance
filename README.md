@@ -6,7 +6,9 @@ This public repository is reserved for the PoWV Protocol's investment thesis, co
 
 ## For investors and funding partners
 
-PoWV has documented a physical-scale bench demonstration. The next proposed milestone is a weighing-site pilot with an external partner.
+PoWV develops evidence infrastructure for physical events and operational decisions. The research asks two questions: where did a record come from, and what can an operator reasonably authorize on the strength of that record? The [product architecture](https://powv-protocol.gitbook.io/powv-protocol-docs/product-proposals/) spans evidence verification, secure capture, operational security and a financial-operations profile. Potential buyers include industrial operators, systems integrators and institutions that rely on evidence about physical assets.
+
+The project has documented a real instrument-to-edge bench experiment and separate software conformance tests. [Candidate pilots](docs/09-commercial-strategy/README.md) would test a specific buyer's workflow and willingness to pay.
 
 | Diligence question | Project record |
 | --- | --- |
@@ -33,7 +35,7 @@ The public framework deliberately does not publish restricted structural tokenom
 
 ## Benchmarked engineering cost & IP value methodology
 
-- [Independent benchmarks, payroll-burden sensitivity, inflation, depreciation and IP valuation](docs/07-valuation-framework/BENCHMARKS_AND_IP_VALUATION.md) — sourced salary and statutory references, IBGE/CPC treatment, WIPO valuation approaches, and World Bank sector context. Distinguishes documented historical costs, current replacement-cost estimates and prospective IP economic benefits.
+- [Independent benchmarks, payroll-burden sensitivity, inflation, depreciation and IP valuation](docs/07-valuation-framework/BENCHMARKS_AND_IP_VALUATION.md) — sourced salary and statutory references, IBGE/CPC treatment, WIPO valuation approaches, and workflow references for industrial traceability, operational security and digital trade. Distinguishes documented historical costs, current replacement-cost estimates and prospective IP economic benefits.
 
 ## Documentation index
 
