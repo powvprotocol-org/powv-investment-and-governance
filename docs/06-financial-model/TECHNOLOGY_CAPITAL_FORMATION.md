@@ -5,7 +5,7 @@
 **Reference period:** August 2025–November 2026  
 **Currency:** Brazilian real (BRL); USD is a secondary presentation currency  
 **Status:** Working managerial estimate; documentary reconciliation pending  
-**Version:** 0.1
+**Version:** 0.2
 
 ## 1. Purpose and accounting perimeter
 
@@ -89,7 +89,7 @@ The founder's work is divided into two modeled stages:
 | **B — Engineering and laboratory work** | Apr 2026–20 Nov 2026 | 660 h | Software development, physical-to-edge integration, security research, conformance, testing and technical records |
 | **Total** | | **1,185 h** | |
 
-The senior-rate proxy in the model is **BRL 16,250/month ÷ 160 hours/month = BRL 101.5625/hour**. This is a *working salary-equivalent assumption* for costing skill-replacement effort, not an invoiced consultant rate, independent professional appraisal or independently verified founder timesheet. A separate benchmark review is required before labeling it a market rate.
+The senior-rate proxy in the model is **BRL 16,250/month ÷ 160 hours/month = BRL 101.5625/hour**, using the 2026 Robert Half median for a Brazilian senior full-stack developer [as attributed by Serasa Experian](https://www.serasaexperian.com.br/carreiras/blog-carreiras/areas-da-tecnologia-mais-bem-pagas/). This is a *working salary-equivalent assumption* for costing skill-replacement effort, not an invoiced consultant rate, independent professional appraisal or independently verified founder timesheet. The **160-hour monthly divisor is a scenario convention**, not a statutory employment divisor. A full sensitivity analysis, relevant payroll-burden references and task-specific benchmarking caveats are in [Benchmarks & IP Valuation](../07-valuation-framework/BENCHMARKS_AND_IP_VALUATION.md).
 
 **Modeled labor value:** 1,185 × BRL 101.5625 = **BRL 120,351.5625**, presented as **BRL 120,351.56**.
 
@@ -136,6 +136,8 @@ These checksums identify the **exact local source revisions** underlying the mod
 No source file or underlying receipt is embedded in this public page.
 
 ## 6. Recognition and valuation boundaries
+
+**Sourced methodology companion:** [Independent Benchmarks, Burdened Engineering Cost, IPCA, Depreciation & IP Valuation](../07-valuation-framework/BENCHMARKS_AND_IP_VALUATION.md). It addresses employer-cost sensitivity as a separate replacement-cost scenario (not historical paid labor), item-dated inflation adjustment, physical asset useful life, evidence quality, WIPO-recognized IP valuation methods and published World Bank market context. The **BRL 148,275.11** working-model total is unchanged: neither a blanket inflation multiplier nor a speculative IP premium has been silently added.
 
 The purpose of this schedule is **managerial reconstruction and preliminary due diligence**, not automatic capitalization.
 
