@@ -11,6 +11,10 @@ This public repository is reserved for the PoWV Protocol's investment thesis, co
 
 The public framework deliberately does not publish restricted structural tokenomics or proprietary economic parameters.
 
+## Related protocol-economic research
+
+- [Economic Finality & Dispute Governance](https://github.com/powvprotocol-org/protocol-economic-finality) — a separate public research repository on challenges, bounded quarantine, adjudication, financial-risk allocation, and authorized settlement. This technical-governance workstream complements ECO-1 without constituting an adopted financial policy.
+
 ## Documentation index
 
 | Domain | Document |
