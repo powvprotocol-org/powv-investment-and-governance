@@ -5,7 +5,7 @@
 **Reference period:** August 2025–November 2026  
 **Currency:** Brazilian real (BRL); USD is a secondary presentation currency  
 **Status:** Working managerial estimate; documentary reconciliation pending  
-**Version:** 0.2
+**Version:** 0.3
 
 ## 1. Purpose and accounting perimeter
 
@@ -93,7 +93,7 @@ The senior-rate proxy in the model is **BRL 16,250/month ÷ 160 hours/month = BR
 
 **Modeled labor value:** 1,185 × BRL 101.5625 = **BRL 120,351.5625**, presented as **BRL 120,351.56**.
 
-Stage durations, activity allocations and actual hours will be reconciled against project records rather than derived automatically from commit counts or the calendar age of the project.
+The stage estimates have no published hour-by-hour breakdown. The dated records below illustrate the work in each stage. Commit counts and document dates alone cannot establish elapsed labor time.
 
 ## 4. Dated technical milestones and evidentiary links
 
@@ -120,7 +120,7 @@ The following identifiers provide a future audit trail. **Status describes the p
 | POWV-EVD-OPS-001 | Electricity | BRL 260 × 16 monthly periods | Actual bill series, payment and project allocation pending |
 | POWV-EVD-OPS-002 | Rent | BRL 700 × 16 monthly periods | Contract, payment and business-use allocation pending |
 | POWV-EVD-SW-001 | AI subscriptions | Stated service basket, modeled as 16 months | Subscription activation dates, invoices, actual charges and additional tools pending |
-| POWV-EVD-RND-001 | Founder worklog | Two-stage, 1,185-hour modeled effort | Dated activity records, assignment to milestones and independent rate support pending |
+| POWV-EVD-RND-001 | Founder effort estimate | Two-stage, 1,185-hour modeled effort | Dated activity records, assignment to milestones and independent rate support pending |
 | POWV-EVD-IP-001 | Intellectual property | Technical artifacts and governance documentation | Asset-rights inventory, legal ownership chain and rights scope to be examined |
 | POWV-EVD-FX-001 | Exchange-rate and import charges | One illustrative end-period BRL/USD conversion | Historical transaction rates, import records and paid IOF pending |
 
@@ -153,16 +153,15 @@ Official standard references:
 - [IAS 38 — Intangible Assets](https://www.ifrs.org/issued-standards/list-of-standards/ias-38-intangible-assets/)
 - [IFRS 13 — Fair Value Measurement](https://www.ifrs.org/issued-standards/list-of-standards/ifrs-13-fair-value-measurement/)
 
-## 7. Next revisions
+## 7. Evidence available as of 20 November 2026
 
-| Revision objective | Evidence required |
-| --- | --- |
-| Replace declared hardware prices with reconciled historical costs | Invoices, bank records, import declarations and proof of ownership |
-| Allocate residence and electricity costs | Month-by-month evidence and documented business-use criteria |
-| Replace AI basket assumptions with historical transactions | Receipts and monthly active-plan chronology |
-| Reconstruct engineering hours by deliverable | Dated work journals, Git history, laboratory reports and review notes |
-| Evaluate intellectual-property rights separately | Ownership documents, legal descriptions, rights inventory and any formal registrations |
-| Assess capitalization and valuation under appropriate standards | Accountant-reviewed mapping and any qualified appraisal required |
+| Subject | What the available record supports | Evidence that would resolve the open question |
+| --- | --- | --- |
+| Founder engineering effort | Stage A (525 estimated hours) includes the September 2025 whitepaper. Stage B (660 estimated hours) includes the September bench record and November software update. At the reference rate, these assumptions account for BRL 120,351.56, or 81.2% of the combined scenario. | Dated time entries can support actual hours for the periods they cover. Any retrospective estimate can be linked to a deliverable and labeled as such. |
+| Spending | BRL 6,140.43 comes from founder-declared equipment prices. BRL 21,783.12 comes from modeled rent, electricity and subscriptions. The register gives no reconciled total for project cash expenditure. | Receipts matched to payments establish amounts paid. Billing periods and a documented project-use share establish how much belongs to PoWV. |
+| Technical results | The [18 September bench record](https://github.com/powvprotocol-org/powv-scale-edge-integration/blob/main/docs/integration-module/experimental-record.md) reports a real scale reading received and retrieved from an ESP32. The [20 November update](https://github.com/powvprotocol-org/powv-lab-status/blob/main/status/2026-11-software-engineering-update.md) reports 343 software tests passing on each of two Python versions and zero hardware tests in that update. Both are project records. | An external engineer could repeat the bench run and record the setup, software revision, expected result and observations. The public record contains no such external report. |
+| IP and licensing | Dated documents and repository history identify technical contributions. The register leaves ownership and licensing scope open for each asset. | An asset register identifying authors, rights holders, third-party licenses and any assignments would show who can license each asset and on what terms. |
+| Commercial value | The cost model estimates resources used in development. It supplies no measured customer savings, contracted license income or independent IP valuation. | A customer pilot with a baseline and measured outcome would support a savings claim. A signed commercial agreement would support the price and terms agreed for that customer. |
 
 **Related:** [Financial Model](README.md) · [Valuation Framework](../07-valuation-framework/README.md) · [Capital Roadmap](../10-capital-roadmap/README.md) · [Governance & IP disclosure policy](https://github.com/powvprotocol-org/powv-governance-and-docs/blob/main/TRADE_SECRET_POLICY.md).
 
