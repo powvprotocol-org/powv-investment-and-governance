@@ -26,11 +26,11 @@ The first workstream examines **what is represented, by whom, and with what lega
 
 ### Open D1 questions
 
-- Define the issuer, holder, transferee, and obligated counterparty for each contemplated representation.
-- Distinguish a factual certificate from an instrument conveying legal title or a financial claim.
-- Establish whether transferability is required and, if so, which rights are transferred.
-- Determine supply, issuance, redemption, cancellation, and retirement principles by asset type.
-- Establish the applicable legal and regulatory perimeter for each concrete use case.
+- Who would issue, hold or receive each representation, and which counterparty would owe the obligation?
+- What would each instrument establish about the facts, legal title or financial claims?
+- Which rights, if any, would need to be transferable?
+- Which supply, issuance, redemption, cancellation and retirement rules would apply to each asset type?
+- Which legal and regulatory requirements would apply to each use case?
 
 ## D2 — Recognition, authorization, and asset lifecycle
 
@@ -70,12 +70,12 @@ A distribution mechanism describes *how* entitlements may be settled; it does no
 
 ### Open D3 questions
 
-- Identify the payer, beneficiary, contractual obligation, timing, and accounting recognition for each flow.
-- Determine whether verification is billed separately or paid from another contractual flow.
-- Distinguish funds held on behalf of third parties from revenue earned by the technology provider.
-- Establish which participant bears operational losses and the cost of disputed or reversed transactions.
-- Evaluate whether economic guarantees are needed, how they are denominated, and who administers them.
-- Examine whether independent validators and any associated incentive mechanism are necessary for the target deployment model.
+- Who would pay whom, under which obligation, and when would each party recognize the payment?
+- Would verification be billed separately or funded through another contractual payment?
+- Which funds would the provider hold for third parties, and which would it earn as revenue?
+- Who would bear operational losses and the cost of disputed or reversed transactions?
+- What guarantees, if any, would be needed, in what denomination and under whose administration?
+- Would the deployment require independent validators or incentives for their participation?
 
 ## Enterprise economics versus operator economics
 
@@ -118,4 +118,4 @@ This page is an **institutional study map**, not a smart-contract specification 
 - [PoWV Lab Status — experimental evidence and limits](https://github.com/powvprotocol-org/powv-lab-status)
 - [Governance and documentation policies](https://github.com/powvprotocol-org/powv-governance-and-docs)
 
-**Next:** use the [decision register](DECISION_REGISTER.md) to deepen each question individually, with recorded status and supporting evidence.
+The [decision register](DECISION_REGISTER.md) tracks these questions and their status.

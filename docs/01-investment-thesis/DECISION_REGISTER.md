@@ -50,10 +50,10 @@ This register tracks topics for structured investigation. **All items are open**
 | **IP and licensing** | What ownership and licensing relationships are possible between technology development and commercial operations? | [IP & Licensing](../08-ip-and-licensing/README.md) |
 | **Field and legal validation** | What independent evidence and institutional approvals are required before a commercial claim can be made? | [ECO-1 Economic Architecture](ECONOMIC_ARCHITECTURE.md) |
 
-## Update discipline
+## Decision records
 
-Each future decision should record: **status**, **date**, **scope**, **source/provenance**, **alternatives considered**, **dependencies**, and **approval authority**. Open questions should not be silently converted into adopted rules.
+A decision record identifies the status, date, scope, sources, alternatives, dependencies and approval authority. An item stays open until its approval is recorded.
 
-Public entries should summarize conclusions at an appropriate disclosure level. Nonpublic economic parameters and proprietary implementation details remain outside this repository.
+Public entries summarize decisions within the project's disclosure policy. Nonpublic economic parameters and proprietary implementation details remain outside this repository.
 
 **Related:** [ECO-1 public economic architecture](ECONOMIC_ARCHITECTURE.md).
